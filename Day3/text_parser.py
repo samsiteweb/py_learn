@@ -25,3 +25,19 @@ print("\n")
 print(f"First letter {word[0]}")
 print(f"Las letter {word[-1]}")
 
+print("\n")
+
+word_to_list.reverse()
+inverted_text = ' '.join(word_to_list)
+
+print(f"inverted text {inverted_text}")
+
+print("\n looking for the word python")
+
+
+is_python = 'python' in word
+
+dic = {True: "was found", False: "was not"}
+
+print(f"word python {dic[is_python]} found ")
+
