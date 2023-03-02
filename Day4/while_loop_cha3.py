@@ -1,6 +1,6 @@
-number = 50
+list_numbers = [4,5,8,7,6,9,8,2,4,5,7,1,9,5,6,-1,-5,6,-6,-4,-3]
 
-while number >= 0:
-    if number % 5 == 0:
-        print(number)
-    number = number - 1
+for num in list_numbers:
+    if num < 0:
+        break
+    print(num)
