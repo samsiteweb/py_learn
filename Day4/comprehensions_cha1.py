@@ -9,3 +9,11 @@ print(square_values)
 even_values = [v for v in values if v % 2 == 0]
 
 print(even_values)
+
+# For the following list of temperatures in degrees Fahrenheit, express these same values in a new list of temperature values in degrees Celsius.
+
+temperature_fahrenheit = [32, 212, 275]
+
+degrees_celsius = [v -32 * (5/9) for v in temperature_fahrenheit]
+
+print(degrees_celsius)
