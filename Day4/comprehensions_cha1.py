@@ -14,6 +14,6 @@ print(even_values)
 
 temperature_fahrenheit = [32, 212, 275]
 
-degrees_celsius = [v -32 * (5/9) for v in temperature_fahrenheit]
+degrees_celsius = [(v -32) * (5/9) for v in temperature_fahrenheit]
 
 print(degrees_celsius)
