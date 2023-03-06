@@ -1,4 +1,6 @@
 brands = ["nike", "puma"]
 products = ["shirt", "shoe"]
 
-my_zip = zip(brands, products)
+my_zip = list(zip(brands, products))
+
+print(my_zip)
