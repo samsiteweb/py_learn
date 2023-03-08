@@ -26,3 +26,5 @@ Declare a function called square, that takes any number as an argument, and each
 
 def square(number):
     print(number ** 2)
+
+
