@@ -16,3 +16,17 @@ def usd_to_eur(amount_in_usd):
     return amount_in_usd * EUR
 
 
+'''
+Create a function called reverse_word that 
+takes the characters of a given word as an argument, 
+reverses the order of their characters, 
+and returns them that way and in uppercase.
+'''
+
+def reverse_word(word):
+    char_list = list(word.upper())
+    char_list.reverse()
+    reversed = ''.join(char_list)
+    return reversed
+
+print(reverse_word("sam"))
